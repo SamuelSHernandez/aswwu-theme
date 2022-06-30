@@ -9,10 +9,11 @@ Author: Samuel S. Hernandez
 Author URI: https://github.com/SamuelSHernandez
 */
 
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-/* regular text */
-@import url('https://fonts.googleapis.com/css?family=Poppins');
-/* test text */
+@import url('https://fonts.googleapis.com/css?family=Roboto');  /* regular text */
+
+/* title text */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display');
+
 
 html {
     max-width: 100% !important;
