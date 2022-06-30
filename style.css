@@ -1,0 +1,58 @@
+/*
+
+Theme: ASWWU
+Text Domain: ASWWU
+Version: 1.0
+Description: Custom wordpress theme for aswwu.com
+Tags: aswwu
+Author: Samuel S. Hernandez
+Author URI: https://github.com/SamuelSHernandez
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/* regular text */
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+/* test text */
+
+html {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+body {
+    background-color: var(--dark-mode-bg);
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+h1 {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 38px;
+    line-height: 1.15;
+    letter-spacing: -.02em;
+    color: var(--greenish-black);
+    -webkit-font-smoothing: antialiased;
+}
+
+p {
+    font-family: "Poppins", serif;
+}
+
+/* Theme colors */
+
+:root {
+    --carrot-orange: #ed9b40;
+    --celadon-blue: #0077aa;
+    --cool-grey: #9a96af;
+    --ebony: #656950;
+    --greenish-black: #040902;
+    --india-green: #358600;
+    --light-yellow: #f7ffe0;
+    --mint-cream: #f1f7ed;
+    --pewter-blue: #98b0c3;
+    --vivid-burgandy: #990033;
+
+    --dark-mode-bg: #040902;
+    --light-mode-bg: #f1f7ed;
+}
